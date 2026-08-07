@@ -10,14 +10,22 @@ void main()
 	printf("\n enter value of a,b:");
 	scanf("%d%d",&a,&b);
 
-	if(a>b)
+	if(a == b)
 	{
-		printf("\n a number is maximum");
-
+		printf("\n both are equal");
 	}
 	else
 	{
+		printf("\n both are not equal");
+		if(a>b)
+		{
+		printf("\n a number is maximum");
+
+		}
+		else
+		{
 		printf("\n b number is maximum");
+		}
 	}
 	getch();
 }
